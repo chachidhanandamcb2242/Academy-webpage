@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="image.jpg">
+    <style>
+        .col-65 {
+        float: left;
+        width: 65%;
+        margin-top: 6px;
+      }
+      
+      .col-35 {
+        float: left;
+        width: 35%;
+        margin-top: 6px;
+        
+      }
+      
+      /* Clear floats after the columns */
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+        
+      }
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+        
+      }
+      
+      /* Clear floats after the columns */
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+        
+      }
+      .flex-container{
+        display:flex;
+        justify-content: space-evenly;
+        margin:20px;
+    
+
+        }
+        .flex-container>div
+        {
+            color:black;
+            padding:40px;
+            margin:20px;
+            border:1px solid black;
+        }
+        table {
+  border:1px solid black;
+  width: 100%;
+  margin:5px;
+}
+
+th, td {
+  border:1px solid black;
+  text-align: left;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <a href="home.html">Home</a>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="vm.html">Mission & Vision</a></li>
+                  <li><a class="dropdown-item" href="footstep.html">Footsteps</a></li>
+                  <li><a class="dropdown-item" href="approach.html">Learning Approach</a></li>
+                </ul>
+              </li>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown1">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="training.html">Corporate It Training Service</a></li>
+                  <li><a class="dropdown-item" href="campus.html">Campus services</a></li>
+                </ul>
+              </li>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown2">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <h5>Web Development</h5>
+                  <li><a class="dropdown-item" href="phpmsql.html">Php & Mysql</a></li>
+                  <li><a class="dropdown-item" href="htmlcourse.html">Html</a></li>
+                  <li><a class="dropdown-item" href="learncss.html">Css</a></li>
+                  <li><a class="dropdown-item" href="js.html">Javascript</a></li>
+                  <li><a class="dropdown-item" href="webd.html">Web Development Framework</a></li>
+                  <li><a class="dropdown-item" href="jquery.html">JQuery</a></li>
+                  <li><a class="dropdown-item" href="ajax.html">Ajax</a></li>
+                  <li><a class="dropdown-item" href="json.html">Json</a></li>
+                  <li><a class="dropdown-item" href="angular.html">Angular js</a></li>
+                  <li><a class="dropdown-item" href="node.html">Node js</a></li>
+                  <li><a class="dropdown-item" href="react.html">React js</a></li>
+                  <li><a class="dropdown-item" href="express.html">Express js</a></li>
+                </ul>
+              </li>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown3">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Support
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="careers.html">Career</a></li>
+                  <li><a class="dropdown-item" href="help.html">Help center</a></li>
+                </ul>
+              </li>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown4">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  OurValues
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="records.html">Student records</a></li>
+                </ul>
+              </li>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown5">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Franchise
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="franchise.html">Franchise opportunities</a></li>
+                </ul>
+              </li>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown6">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  ContactUs
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="contact.html">Madurai-annanagar</a></li>
+                </ul>
+              </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<h5 style="text-align: center;">WE ALWAYS DELIVER MORE THAN EXPECTED</h5>
+<h2 style="text-align: center;">Training and placement</h2>
+<div class="row"style="margin-left:5px;">
+    <div class="col-65">
+      <img src="image61.jpg">
+    </div>
+    <div class="col-35">
+        <h3>Training and placement:</h3>
+      <p>Along with the online and regular classes, we handle Campus2Corp program through the direct visit to the premises of the colleges or institutions, to conduct the campus-training and placement programs and soft skill training for preparing the students to face the interviews confidently to avail ample job opportunities. Having vast exposure and tie ups with various organizations, our EA helps its students with ample placement assistance.</p>
+      <p>Most of the students were exposed to mere theoretical learning in the colleges and universities. In order to remain agile in the current competitive environment, students have to improve their practical skills to match up the current industrial requirements. EA initiated the campus training programs to bridge the gap between the “classroom” and “real world experience”, by providing the practical and interactive sessions to the students. Our training program provides more opportunities for the students to apply knowledge into practical work, rather than concentrating on mere theoretical learning.</p>
+      <p>Our customized training and placement program provides hands-on practical experience to the students and improves the personality and professional skills of the participants, so as to avail excellent career opportunities from various corporate training companies reputed organizations and accomplish success in their career. Polishing the areas of leadership, teamwork, communication skills, interpersonal behavior, time management, appearance, and attitude will help the individuals to excel in all aspects of their career. Through our effective, Interactive and Result driven Soft Skills Training programs, students can attune themselves with the industry requirements and face the world with confidence.</p>
+     </div>
+</div>
+<h5 style="text-align: center;"></h5>
+<h1 style="text-align: center;">College Liaisons</h1>
+<table>
+    <thead>
+      <tr>
+        <th>Colleges</th>
+        <th>Department</th>
+        <th>From</th>
+        <th>Technology</th>
+        <th>Placement</th>
+        <th>Workshop</th>
+        <th>Seminars</th>
+        <th>Training</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dr. Sivanthi Aditanar College of Engineering</td>
+            <td>CSE</td>
+            <td>2007</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>P.T.R. College of Engineering</td>
+            <td>CSE</td>
+            <td>2009</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>6</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>P.T.R. College of Engineering</td>
+            <td>IT</td>
+            <td>2010</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>4</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Syed Ammal College of Engineering</td>
+            <td>CSE</td>
+            <td>2011</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>4</td>
+            <td>7</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Syed Ammal College of Engineering</td>
+            <td>IT</td>
+            <td>2011</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>3</td>
+            <td>5</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Syed Ammal College of Engineering</td>
+            <td>ECE</td>
+            <td>2012</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>2</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>R.V.S College of Engineering</td>
+            <td>CSE</td>
+            <td>2011</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td></td>
+            <td>3</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>R.V.S College of Engineering</td>
+            <td>ECE</td>
+            <td>2012</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Mohamed Sathak Engineering College</td>
+            <td>CSE</td>
+            <td>2012</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>3</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Mohamed Sathak Engineering College</td>
+            <td>IT</td>
+            <td>2012</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Mohamed Sathak Engineering College</td>
+            <td>ECE</td>
+            <td>2012</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Millenium Institute of Management</td>
+            <td>MBA</td>
+            <td>2012</td>
+            <td>YES</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SSM Institute of Engineering And Technology</td>
+            <td>ECE</td>
+            <td>2012</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SNS College of Engineering</td>
+            <td>ECE</td>
+            <td>2014</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SNS College of Information Technology</td>
+            <td>CSE</td>
+            <td>2014</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>PSNA College of Engineering</td>
+            <td>CSE</td>
+            <td>2012</td>
+            <td>YES</td>
+            <td></td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Bannari Amman Institute of Technology</td>
+            <td>CSE</td>
+            <td>2012</td>
+            <td>YES</td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Kalasalingam Institute of Technology</td>
+            <td>CSE</td>
+            <td>2012</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>R.V.S College of Engineering</td>
+            <td>CSE</td>
+            <td>2013</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sengamala Thayaar Educational Trust for Women</td>
+            <td>MCA</td>
+            <td>2013</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>VRS College of Engineering</td>
+            <td>CSE</td>
+            <td>2014</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Aarupadai Veedu Institute of Technology</td>
+            <td>IT</td>
+            <td>2014</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MPNMJ Engineering College</td>
+            <td>CSE</td>
+            <td>2014</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td></td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>K.L.N. College of Engineering</td>
+            <td>CSE</td>
+            <td>2015</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>K.L.N. College of Information Technology</td>
+            <td>IT</td>
+            <td>2015</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Shri Angalamman College of Engineering and Technology</td>
+            <td>CSE</td>
+            <td>2015</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>2</td>
+            <td>1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Rohini College of Engineering & Technology</td>
+            <td>CSE</td>
+            <td>2016</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>V.V.V Arts And Science College</td>
+            <td>IT</td>
+            <td>2016</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Renganayagi Varatharaj College Of Engineering</td>
+            <td>CSE</td>
+            <td>2016</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Renganayagi Varatharaj College Of Engineering</td>
+            <td>CSE</td>
+            <td>2016</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>SBM College of Engineering & Technology</td>
+            <td>CSE</td>
+            <td>2016</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Jayaraj Annapackiam CSI College of Engineering</td>
+            <td>IT</td>
+            <td>2017</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>2</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Imayam College of Engineering</td>
+            <td>IT</td>
+            <td>2017</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        
+        <tr>
+            <td>V.S.B. Engineering College</td>
+            <td>CSE</td>
+            <td>2017</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>Oxford Engineering College</td>
+            <td>CSE</td>
+            <td>2018</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>Latha Mathavan Engineering College</td>
+            <td>ECE</td>
+            <td>2018</td>
+            <td>YES</td>
+            <td>YES</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        
+        
+    </tbody>
+</table>
+<div class="flex-container">
+    <div><h3>MOU's</h3>
+      <p>
+        EA has signed MoU with several Engineering colleges and Management colleges, to provide ample career guidance to the students.</p>
+    </div>
+    <div>
+      <h3>Workshops</h3>
+       <p>EA offers workshops with thought-provoking and content-rich presentations, through the leading educators and consultants.</p>
+    </div>
+    <div>
+        <h3>Training</h3>
+        <p>EA offers valuable coaching to the learners, through the intensive and result oriented classroom training session.</p>
+      </div>
+      <div>
+        <h3>Faculties</h3>
+          <p>Our proficient faculty team has completely redefined the paradigm of the learning process and created a differentiated education model.</p>
+      </div>
+
+</div>
+<div class="row"style="margin-left:5px;">
+    <div class="col-25">
+      <h2 style="text-align: center;">Early bird access</h2>
+      <p style="text-align: center;">$750/yearly</p>
+      <p style="text-align: center;">Features</p>
+      <p style="text-align: center;">20 Seminars</p>
+      <p style="text-align: center;">3 Workshop</p>
+      <p style="text-align: center;">50 inplant training</p>
+      <p style="text-align: center;">2 BootCamps</p>
+
+
+    </div>
+    <div class="col-75">
+        <h1>Benifits</h1>
+        <ul>
+            <li>Bridges the gap between the campus and corporate smoothly</li>
+            <li>Equip the students get into grips with new realities and prepare them for transition.</li>
+            <li>Improves the confidence level of the students.</li>
+            <li>Develop the individual strengths of the students.</li>
+            <li>Enrich the soft skills of the students.</li>
+            <li>Develop the right attitudes of the students.</li>
+            <li>Build cordial relationships between the colleges and corporate.</li>
+            <li>Make the students to understand the organization’s culture.</li>
+            <li>Students can learn about the effective management of work stress.</li>
+            <li>Students can learn to plan their career and explore opportunities and prepare action plan to reach their personal goals and ambitions.</li>
+        </ul>
+     </div>
+</div>
+</body>
+</html>

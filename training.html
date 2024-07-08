@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="image.jpg">
+    <style>
+        .flex-container{
+        display:flex;
+        justify-content: space-evenly;
+        margin:20px;
+    
+
+        }
+        .flex-container>div
+        {
+            color:black;
+            padding:40px;
+            margin:20px;
+            border:1px solid black;
+        }
+        .col-65 {
+        float: left;
+        width: 65%;
+        margin-top: 6px;
+      }
+      
+      .col-35 {
+        float: left;
+        width: 35%;
+        margin-top: 6px;
+        
+      }
+      
+      /* Clear floats after the columns */
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+        
+      }
+      .col-50 {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+      }
+      
+      .col-50 {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+      }
+      
+      /* Clear floats after the columns */
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <a href="home.html">Home</a>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="vm.html">Mission & Vision</a></li>
+                  <li><a class="dropdown-item" href="footstep.html">Footsteps</a></li>
+                  <li><a class="dropdown-item" href="approach.html">Learning Approach</a></li>
+                </ul>
+              </li>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown1">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="training.html">Corporate It Training Service</a></li>
+                  <li><a class="dropdown-item" href="campus.html">Campus services</a></li>
+                </ul>
+              </li>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown2">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <h5>Web Development</h5>
+                  <li><a class="dropdown-item" href="phpmsql.html">Php & Mysql</a></li>
+                  <li><a class="dropdown-item" href="htmlcourse.html">Html</a></li>
+                  <li><a class="dropdown-item" href="learncss.html">Css</a></li>
+                  <li><a class="dropdown-item" href="js.html">Javascript</a></li>
+                  <li><a class="dropdown-item" href="webd.html">Web Development Framework</a></li>
+                  <li><a class="dropdown-item" href="jquery.html">JQuery</a></li>
+                  <li><a class="dropdown-item" href="ajax.html">Ajax</a></li>
+                  <li><a class="dropdown-item" href="json.html">Json</a></li>
+                  <li><a class="dropdown-item" href="angular.html">Angular js</a></li>
+                  <li><a class="dropdown-item" href="node.html">Node js</a></li>
+                  <li><a class="dropdown-item" href="react.html">React js</a></li>
+                  <li><a class="dropdown-item" href="express.html">Express js</a></li>
+                </ul>
+              </li>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown3">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Support
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+
+                  <li><a class="dropdown-item" href="careers.html">Career</a></li>
+                  <li><a class="dropdown-item" href="help.html">Help center</a></li>
+                </ul>
+              </li>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown4">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  OurValues
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="records.html">Student records</a></li>
+                </ul>
+              </li>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown5">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Franchise
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="franchise.html">Franchise opportunities</a></li>
+                </ul>
+              </li>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown6">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  ContactUs
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="contact.html">Madurai-annanagar</a></li>
+                </ul>
+              </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h5 style="text-align: center;">
+        TRANSFORMATION BEGINS OUT OF COMFORT ZONE</h5>
+        <h1 style="text-align: center;">Corporate IT Training Services</h1>
+        <div class="row"style="margin-left:5px;">
+            <div class="col-50">
+                <h2>Top Rated Corporate IT Training Services</h2>
+                <img src="image49.jpg">
+              
+            </div>
+            <div class="col-50">
+               <h2>Overview Of Corporate IT Training Services</h2>
+               <p>Corporate IT Training Services: A system of activities to educate employees is known as Corporate Training or, more recently, Workplace Learning. While it benefits companies, it also helps employees by allowing them to acquire and hone information and skills to advance professionally and personally.</p>
+               <p>In larger corporations, Development or Talent teams are in-charge of training the employees. They must determine the themes and requirements for training programmes and make them available to employees. In addition, they are developing employee experience and journey strategies and roadmaps.</p>
+               <p>Employees typically struggle to understand the benefit of corporate training programmes since they are designed to expose deficiencies or are very specific and only applicable to present positions.
+
+               </p>
+             </div>
+        </div>
+        <h1 style="text-align: center;">Why IT Corporate Training Essential?</h1>
+        <p>Elysium Academy is one of Madurai's top IT Corporate Training Center. We provide training for corporate People. Our corporate training service ensures that employees increase their abilities and performance by focusing on professional growth. Employers use training to acclimate new employees, teach new employees in the same profession, and progress individuals into occupations requiring different skill sets. Training can be tailored to a company's needs, or it might be more general. Our services are available to both IT and non-IT businesses. Elysium Academy offers a Corporate Training solution that includes turn-key arrangements that support professional skill development and communication effectiveness in the workplace. We are one of Madurai's best corporate training firms, offering affordable leadership classes.</p>
+        <div class="flex-container">
+            <div>
+               <p>Designed for all your training needs & Skill development</p>
+            </div>
+            <div>
+               <p>Industry Recognized Certification to Add Value to Your Workforce</p>
+       
+           </div>
+            <div>
+               <p>Curriculums designed by industry Professionals for Industry Professionals</p>
+               
+           </div>
+           <div>
+               <p>Theoretical and Practical Training for Real World Problems</p>
+   
+           </div>
+   
+      </div>
+      <h1 style="text-align: center;">Training Courses Covered By Us</h1>
+      <div class="row">
+        <div class="col-50">
+        </div>
+        <div class="col-50">
+            <h1>Cloud Training</h1>
+            <p>AWS Fundamental and Certifications</p>
+            <p>Azure Fundamental and Certifications</p>
+            <p>Google Cloud Fundamental and Certifications</p>
+        </div>
+    </div>    
+
+        <div class="row">
+            <div class="col-50">
+                <h1>.Net</h1>
+    
+            </div>
+            <div class="col-50">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50">
+            </div>
+            <div class="col-50">
+                <h1>Python</h1>
+                
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-50">
+                <h1>Data Analytics</h1>
+            </div>
+            <div class="col-50">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-50">
+                <h1></h1>
+                
+            </div>
+            <div class="col-50">
+                <h1>Soft-skill training</h1>
+                <p>Communication Skill</p>
+                <p>Personal Development Skill</p>
+            </div>
+        </div>
+        <h1 style="text-align: center;">Our Approach</h1>
+        <p>Learning techniques have evolved. The speed of learning should grow in tandem with the rapid change in the corporate world. Multiple stages of methodology has been created to enable quick and deeper understanding. It allows our clients to develop the needed material more quickly. Our work process starts with understanding the problem and internalizing the solution.</p>
+
+   <div class="flex-container">
+    <div>
+      <img src="image50.jpg">
+      <p>understand the requirements</p>
+    </div>
+    <div>
+      <img src="image51.jpg">
+      <p>understand the organsational competencies</p>
+    </div>
+    <div>
+        <img src="image52.jpg">
+        <p>course plan(As per requirements)</p>
+      </div>
+      <div>
+        <img src="image53.jpg">
+        <p>course by professional trainer</p>
+      </div>
+      <div>
+        <img src="image54.jpg">
+        <p>meet session objective</p>
+      </div>
+      <div>
+        <img src="image55.jpg">
+        <p>purpose of learning course</p>
+      </div>
+</div>
+  <div class="flex-container">
+        <div>
+         <img src="image56.jpg">
+         <p>conceptual learning</p>
+        </div>
+        <div>
+         <img src="image57.jpg">
+         <p>purpose of learning course</p>
+       </div>
+       <div>
+           <img src="image58.jpg">
+           <p>testing with learnt concepts</p>
+      </div>
+       <div>
+          <img src="image59.jpg">
+          <p>review after evaluation</p>
+       </div>
+       <div>
+          <img src="image60.jpg">
+          <p>performance feedback</p>
+      </div>
+  </div>
+    
+</body>
+</html>e:\ElysiumAcademy\image49.jpge:\ElysiumAcademy\image49.jpg
